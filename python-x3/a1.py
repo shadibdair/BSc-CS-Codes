@@ -1,13 +1,13 @@
 class Creature:
     def __init__(self, race, life, weapon_name, weapon_power):
-        # Validate the types of the inputs
+        # Validate the types of the inputs.
         if not isinstance(race, str) or not isinstance(life, (int, float)) or not isinstance(weapon_name, str) or not isinstance(weapon_power, int):
             raise TypeError("Invalid type for one of the parameters")
         # Validate the values of life and weapon power
         if life < 0 or weapon_power <= 0:
             raise ValueError("Life must be non-negative and weapon power must be positive")
         
-        # Initialize instance variables
+        # Initialize instance variables.
         self.race = race
         self.life = life
         self.weapon_name = weapon_name
