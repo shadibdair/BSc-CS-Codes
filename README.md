@@ -1,2 +1,2 @@
 # BSc-CS-Codes!!!
-Using codes/scripts
+Using codes/scripts!
