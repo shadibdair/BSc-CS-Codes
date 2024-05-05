@@ -1,2 +1,2 @@
-# BSc-CS-Codes!!!
+# BSc-CS-Codes!!
 Using codes/scripts
